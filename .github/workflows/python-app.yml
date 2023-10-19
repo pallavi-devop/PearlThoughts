@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
-        working-directory: ./python_app
+        working-directory: ./
 
       - name: Deploy
-        run: python ./python_app/main.py
+        run: python ./main.py
